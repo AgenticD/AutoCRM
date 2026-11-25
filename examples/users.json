@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "user-a",
+    "status": "active",
+    "createdAt": "2025-09-01"
+  },
+  {
+    "_id": "user-b",
+    "status": "active",
+    "createdAt": "2026-07-15"
+  }
+]

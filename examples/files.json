@@ -1,0 +1,14 @@
+[
+  {
+    "_id": "report-a",
+    "userId": "user-a",
+    "createdAt": "2026-06-15",
+    "testDate": "2026-06-14"
+  },
+  {
+    "_id": "report-b",
+    "userId": "user-a",
+    "createdAt": "2026-07-12",
+    "testDate": "2026-07-11"
+  }
+]

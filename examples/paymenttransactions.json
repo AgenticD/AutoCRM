@@ -1,0 +1,9 @@
+[
+  {
+    "userId": "user-a",
+    "status": "successful",
+    "amountRial": 250000,
+    "createdAt": "2026-07-10",
+    "paidAt": "2026-07-10"
+  }
+]

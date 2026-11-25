@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "result-a-extracted",
+    "fileId": "report-a",
+    "type": "abnormalities_extracted",
+    "createdAt": "2026-06-15",
+    "text": "[{\"name\":\"Glucose\",\"patientResult\":\"135\"}]"
+  },
+  {
+    "_id": "result-a-classified",
+    "fileId": "report-a",
+    "type": "abnormalities_classified",
+    "createdAt": "2026-06-15",
+    "text": "{\"abnormal\":[{\"name\":\"Glucose\",\"patientResult\":\"135\",\"referenceRange\":\"70-99\",\"status\":\"high\"}],\"borderline\":[]}"
+  },
+  {
+    "_id": "result-b-extracted",
+    "fileId": "report-b",
+    "type": "abnormalities_extracted",
+    "createdAt": "2026-07-12",
+    "text": "[{\"name\":\"Glucose\",\"patientResult\":\"95\"}]"
+  },
+  {
+    "_id": "result-b-classified",
+    "fileId": "report-b",
+    "type": "abnormalities_classified",
+    "createdAt": "2026-07-12",
+    "text": "{\"abnormal\":[],\"borderline\":[]}"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "_id": "event-a",
+    "userId": "user-a",
+    "fileId": "report-b",
+    "createdAt": "2026-07-12"
+  }
+]

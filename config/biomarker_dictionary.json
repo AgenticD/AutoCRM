@@ -1,0 +1,3886 @@
+{
+  "meta": {
+    "version": "2.0",
+    "based_on": "1.0.0",
+    "created": "2026-08-28",
+    "total_records": 217,
+    "categories": {
+      "coagulation": {
+        "label_fa": "انعقاد",
+        "label_en": "coagulation",
+        "count": 3,
+        "weight_range": [
+          1.0,
+          1.1
+        ]
+      },
+      "electrolytes": {
+        "label_fa": "الکترولیت",
+        "label_en": "electrolytes",
+        "count": 7,
+        "weight_range": [
+          1.0,
+          1.1
+        ]
+      },
+      "glucose": {
+        "label_fa": "قند خون",
+        "label_en": "glucose",
+        "count": 5,
+        "weight_range": [
+          1.0,
+          1.5
+        ]
+      },
+      "hematology": {
+        "label_fa": "خون‌شناسی",
+        "label_en": "hematology",
+        "count": 17,
+        "weight_range": [
+          0.9,
+          1.2
+        ]
+      },
+      "immunology": {
+        "label_fa": "ایمنی",
+        "label_en": "immunology",
+        "count": 1,
+        "weight_range": [
+          1.0,
+          1.0
+        ]
+      },
+      "inflammation": {
+        "label_fa": "التهاب",
+        "label_en": "inflammation",
+        "count": 3,
+        "weight_range": [
+          1.0,
+          1.3
+        ]
+      },
+      "kidney": {
+        "label_fa": "کلیه",
+        "label_en": "kidney",
+        "count": 5,
+        "weight_range": [
+          1.0,
+          1.2
+        ]
+      },
+      "lipids": {
+        "label_fa": "چربی خون",
+        "label_en": "lipids",
+        "count": 5,
+        "weight_range": [
+          1.2,
+          1.3
+        ]
+      },
+      "liver": {
+        "label_fa": "کبد",
+        "label_en": "liver",
+        "count": 11,
+        "weight_range": [
+          1.0,
+          1.2
+        ]
+      },
+      "metadata": {
+        "label_fa": "متادیتا (غیرآزمایش)",
+        "label_en": "metadata",
+        "count": 2,
+        "weight_range": [
+          0.0,
+          0.0
+        ]
+      },
+      "nutrition": {
+        "label_fa": "تغذیه/ویتامین",
+        "label_en": "nutrition",
+        "count": 9,
+        "weight_range": [
+          0.8,
+          1.1
+        ]
+      },
+      "other": {
+        "label_fa": "سایر",
+        "label_en": "other",
+        "count": 124,
+        "weight_range": [
+          1.0,
+          1.0
+        ]
+      },
+      "thyroid": {
+        "label_fa": "تیروئید",
+        "label_en": "thyroid",
+        "count": 7,
+        "weight_range": [
+          1.0,
+          1.1
+        ]
+      },
+      "urinalysis": {
+        "label_fa": "آنالیز ادرار",
+        "label_en": "urinalysis",
+        "count": 18,
+        "weight_range": [
+          0.5,
+          0.8
+        ]
+      }
+    },
+    "signoff": {
+      "reviewer": "",
+      "date": "",
+      "status": "pending",
+      "note": "وزن‌ها به‌صورت خودکار  تولید شده‌اند؛ برای ادعای بالینی نیازمند امضای متخصص است."
+    },
+    "changelog": [
+      ""
+    ],
+    "structure_notes": "فیلدهای جدید اختیاری هستند — پایپ‌لاین قدیمی آنها را نادیده می‌گیرد"
+  },
+  "records": [
+    {
+      "canonical_id": "inr",
+      "canonical_name": "Inr",
+      "category": "coagulation",
+      "aliases": [
+        "I.N.R."
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "pt",
+      "canonical_name": "Pt",
+      "category": "coagulation",
+      "aliases": [
+        "P.T. ( Control )",
+        "P.T. ( Patient )",
+        "P.T. (Control)",
+        "P.T. (Patient)",
+        "S.G.P.T (ALT)",
+        "S.G.P.T. (ALT)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "ptt",
+      "canonical_name": "Ptt",
+      "category": "coagulation",
+      "aliases": [
+        "P.T.T.",
+        "Ρ.Τ.Τ."
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "calcium",
+      "canonical_name": "Calcium",
+      "category": "electrolytes",
+      "aliases": [
+        "Ca",
+        "Ca (Calcium)",
+        "Calcium",
+        "Calcium (Ca)",
+        "Calcium (Ca), serum",
+        "Calcium (Ca), serum Total",
+        "Calcium Serum",
+        "TOTAL CALCIUM"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "chloride",
+      "canonical_name": "Chloride",
+      "category": "electrolytes",
+      "aliases": [
+        "CHLORIDE",
+        "CHLORIDE (ISE)",
+        "Chloride (CI)",
+        "Chloride (CI), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "ionized_calcium",
+      "canonical_name": "Ionized Calcium",
+      "category": "electrolytes",
+      "aliases": [
+        "Calcium (Ca), serum Ionized",
+        "cCa++",
+        "cCa++(7.4)c"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "magnesium",
+      "canonical_name": "Magnesium",
+      "category": "electrolytes",
+      "aliases": [
+        "Magnesium",
+        "Magnesium (Mg), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "phosphorus",
+      "canonical_name": "Phosphorus",
+      "category": "electrolytes",
+      "aliases": [
+        "PHOSPHORUS",
+        "Phosphate (PO4), serum",
+        "Phosphorus (inorganic)",
+        "phosphor"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "potassium",
+      "canonical_name": "Potassium",
+      "category": "electrolytes",
+      "aliases": [
+        "K (Potassium )",
+        "POTASSIUM",
+        "POTASSIUM (ISE)",
+        "Potassium (K)",
+        "Potassium (K), serum"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "sodium",
+      "canonical_name": "Sodium",
+      "category": "electrolytes",
+      "aliases": [
+        "SODIUM (ISE)",
+        "Sodium",
+        "Sodium (Na)",
+        "Sodium (Na), serum",
+        "cNa+"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "blood_glucose",
+      "canonical_name": "Blood Glucose",
+      "category": "glucose",
+      "aliases": [
+        "Glucose",
+        "Glucose, serum",
+        "cGlu"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "estimated_average_glucose",
+      "canonical_name": "Estimated Average Glucose",
+      "category": "glucose",
+      "aliases": [
+        "Estimated Average Glucose(eAG)",
+        "estimated Average Glucose"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "fasting_glucose",
+      "canonical_name": "Fasting Glucose",
+      "category": "glucose",
+      "aliases": [
+        "FBS",
+        "Fasting Blood Glucose",
+        "Fasting blood sugar",
+        "Glucose, serum Fasting"
+      ],
+      "severity_weight": 1.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "hba1c",
+      "canonical_name": "Hba1C",
+      "category": "glucose",
+      "aliases": [
+        "Hb.A1C",
+        "HbA1c",
+        "Hemoglobin A1c",
+        "Hemoglobin A1c (HbA1c), serum",
+        "Hemoglobin Alc"
+      ],
+      "severity_weight": 1.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "random_glucose",
+      "canonical_name": "Random Glucose",
+      "category": "glucose",
+      "aliases": [
+        "Glucose, serum Random"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "basophils",
+      "canonical_name": "Basophils",
+      "category": "hematology",
+      "aliases": [
+        "Absolute Basophils",
+        "Basophil",
+        "Basophil#",
+        "Basophils",
+        "Basophils (VCS/LM)",
+        "DLC(Basophils)"
+      ],
+      "severity_weight": 0.9,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "eosinophils",
+      "canonical_name": "Eosinophils",
+      "category": "hematology",
+      "aliases": [
+        "Absolute Eosinophils",
+        "DLC(Eosinophils)",
+        "EOSINOPHILS",
+        "Eos",
+        "Eosinophil",
+        "Eosinophil#",
+        "Eosinophil.",
+        "Eosinophils (VCS/LM)"
+      ],
+      "severity_weight": 0.9,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "hematocrit",
+      "canonical_name": "Hematocrit",
+      "category": "hematology",
+      "aliases": [
+        "H.C.T",
+        "HCT",
+        "HEMATOCRIT",
+        "Hctc",
+        "Hematocrit (HCT)",
+        "Hematocrite",
+        "PCV (Impedence)",
+        "Packed Cell Volume (PCV)"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "hemoglobin",
+      "canonical_name": "Hemoglobin",
+      "category": "hematology",
+      "aliases": [
+        "H.B",
+        "HGB",
+        "Haemoglobin (SLS METHOD)",
+        "Hb",
+        "Hb%",
+        "Hemoglobin",
+        "Hemoglobin (Hb)",
+        "Hemoglobin (Hb) Female",
+        "Hemoglobin (Hb) Male",
+        "Mean corpuscular hemoglobin (MCH)",
+        "Mean corpuscular hemoglobin concentration (MCHC)"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "lymphocytes",
+      "canonical_name": "Lymphocytes",
+      "category": "hematology",
+      "aliases": [
+        "Absolute Lymphocytes",
+        "DLC(Lymphocytes)",
+        "LYMPHOCYTES",
+        "Lymph",
+        "Lymphocyte",
+        "Lymphocytes (VCS/LM)",
+        "Lymphocytes#"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "mch",
+      "canonical_name": "Mch",
+      "category": "hematology",
+      "aliases": [
+        "M.C.H",
+        "M.C.H.",
+        "MCH",
+        "MCH (Impedence)",
+        "MCH Calculated"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "mchc",
+      "canonical_name": "Mchc",
+      "category": "hematology",
+      "aliases": [
+        "M.C.H.C",
+        "M.C.H.C.",
+        "MCHC",
+        "MCHC (Impedence)",
+        "MCHC Calculated"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "mcv",
+      "canonical_name": "Mcv",
+      "category": "hematology",
+      "aliases": [
+        "M.C.V",
+        "M.C.V.",
+        "MCV",
+        "MCV (Impedence)",
+        "Mean Corpuscular Volume (MCV) Calculated",
+        "Mean corpuscular volume (MCV)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "monocytes",
+      "canonical_name": "Monocytes",
+      "category": "hematology",
+      "aliases": [
+        "Absolute Monocytes",
+        "DLC(Monocytes)",
+        "MONOCYTES",
+        "Mono",
+        "Monocyte",
+        "Monocyte #",
+        "Monocytes (VCS/LM)"
+      ],
+      "severity_weight": 0.9,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "mpv",
+      "canonical_name": "Mpv",
+      "category": "hematology",
+      "aliases": [
+        "MPV",
+        "Mean platelet volume (MPV)"
+      ],
+      "severity_weight": 0.9,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "neutrophils",
+      "canonical_name": "Neutrophils",
+      "category": "hematology",
+      "aliases": [
+        "Absolute Neutrophils",
+        "DLC(Polymorphs)",
+        "NEUTROPHILS",
+        "Neutrophil",
+        "Neutrophils #",
+        "Neutrophils (VCS/LM)",
+        "Segmented"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "pdw",
+      "canonical_name": "Pdw",
+      "category": "hematology",
+      "aliases": [
+        "PDW"
+      ],
+      "severity_weight": 0.9,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "platelet_count",
+      "canonical_name": "Platelet Count",
+      "category": "hematology",
+      "aliases": [
+        "P.L.T",
+        "PLATELET COUNT",
+        "PLT",
+        "Platelet",
+        "Platelet Count (Impedence)",
+        "Plateletes",
+        "Platelets"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "plateletcrit",
+      "canonical_name": "Plateletcrit",
+      "category": "hematology",
+      "aliases": [
+        "PCT"
+      ],
+      "severity_weight": 0.9,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "rbc",
+      "canonical_name": "Rbc",
+      "category": "hematology",
+      "aliases": [
+        "R.B.C",
+        "R.B.C.",
+        "RBC",
+        "RED BLOOD CELL COUNT",
+        "Red blood cell (RBC) count",
+        "Red blood cell (RBC) count Female",
+        "Total RBC count"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "rdw",
+      "canonical_name": "Rdw",
+      "category": "hematology",
+      "aliases": [
+        "R.D.W",
+        "R.D.W.",
+        "RDW",
+        "RDW-CV",
+        "RDW-CV (HB-Colorimelry, TLC Electrical i)",
+        "RDW-SD",
+        "Red blood cell distribution width (RDW)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "wbc",
+      "canonical_name": "Wbc",
+      "category": "hematology",
+      "aliases": [
+        "Total WBC count",
+        "W.B.C",
+        "W.B.C.",
+        "WBC",
+        "WBC Total Count (Impedence)",
+        "WHITE BLOOD CELL COUNT",
+        "White blood cell (WBC) count"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "serum_ige",
+      "canonical_name": "Serum Ige",
+      "category": "immunology",
+      "aliases": [
+        "Serum IgE"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "crp",
+      "canonical_name": "Crp",
+      "category": "inflammation",
+      "aliases": [
+        "C-REACTIVE PROTINE, Serum",
+        "C-Reactive Protein",
+        "CRP",
+        "CRP(quantitative)",
+        "CRP-QUANTITATIVE (Immuno Turbidimetry )",
+        "CRP-QUANTITATIVE (Immuno Turbidimetry)"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "esr",
+      "canonical_name": "Esr",
+      "category": "inflammation",
+      "aliases": [
+        "E.S.R 1h",
+        "E.S.R 1st hr",
+        "E.S.R 2st hr",
+        "ESR",
+        "ESR 1st hr"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "procalcitonin",
+      "canonical_name": "Procalcitonin",
+      "category": "inflammation",
+      "aliases": [
+        "PROCALCITONIN (PCT) (ELFA)",
+        "PROCALCITONIN, Serum"
+      ],
+      "severity_weight": 1.3,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "bun",
+      "canonical_name": "Bun",
+      "category": "kidney",
+      "aliases": [
+        "BUN"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "creatinine",
+      "canonical_name": "Creatinine",
+      "category": "kidney",
+      "aliases": [
+        "CREATININE (Enzymatic)",
+        "Creat",
+        "Creatinine",
+        "Creatinine (Cr)",
+        "Creatinine, serum",
+        "Creatinine, serum Female",
+        "Creatinine, serum Male"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "egfr",
+      "canonical_name": "Egfr",
+      "category": "kidney",
+      "aliases": [
+        "eGFR(MDRD Formula)"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urea",
+      "canonical_name": "Urea",
+      "category": "kidney",
+      "aliases": [
+        "BLOOD UREA (Urease, UV)",
+        "Urea",
+        "Urea serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "uric_acid",
+      "canonical_name": "Uric Acid",
+      "category": "kidney",
+      "aliases": [
+        "Uric Acid",
+        "Uric acid, serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "hdl_cholesterol",
+      "canonical_name": "Hdl Cholesterol",
+      "category": "lipids",
+      "aliases": [
+        "Cholesterol, high-density lipoprotein (HDL), serum",
+        "HDL Cholesterol",
+        "HDL-C",
+        "HDL-Cholestrol",
+        "HDL-chol",
+        "Total Cholesterol / HDL Cholesterol"
+      ],
+      "severity_weight": 1.3,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "ldl_cholesterol",
+      "canonical_name": "Ldl Cholesterol",
+      "category": "lipids",
+      "aliases": [
+        "Cholesterol, low-density lipoprotein (LDL), serum",
+        "LDL",
+        "LDL Cholesterol",
+        "LDL-C",
+        "LDL-Cholestrol",
+        "VLDL-Cholestrol"
+      ],
+      "severity_weight": 1.3,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "ldl_hdl_ratio",
+      "canonical_name": "Ldl Hdl Ratio",
+      "category": "lipids",
+      "aliases": [
+        "Atherogenic factor (LDL:HDL)",
+        "Atherogenic factor(LDL:HDL)",
+        "LDL Cholesterol / HDL Cholesterol",
+        "LDL/HDL Ratio"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "total_cholesterol",
+      "canonical_name": "Total Cholesterol",
+      "category": "lipids",
+      "aliases": [
+        "Cholesterol",
+        "Cholesterol, total, serum",
+        "H.D.L Cholesterol",
+        "L.D.L Cholesterol",
+        "Total Cholesterol"
+      ],
+      "severity_weight": 1.3,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "triglycerides",
+      "canonical_name": "Triglycerides",
+      "category": "lipids",
+      "aliases": [
+        "TG(Triglyceride)",
+        "Triglycerides",
+        "Triglycerides, serum"
+      ],
+      "severity_weight": 1.3,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "albumin",
+      "canonical_name": "Albumin",
+      "category": "liver",
+      "aliases": [
+        "ALBUMIN",
+        "ALBUMIN (Bromcresol Green (BCG))",
+        "Albumin Bromo Cresol Green",
+        "Albumin, serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "albumin_globulin_ratio",
+      "canonical_name": "Albumin Globulin Ratio",
+      "category": "liver",
+      "aliases": [
+        "A/G RATIO",
+        "A/G RATIO (Calculated)",
+        "A/G Ratio Calculated"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "alkaline_phosphatase",
+      "canonical_name": "Alkaline Phosphatase",
+      "category": "liver",
+      "aliases": [
+        "ALKALINE PHOSPHATASE (IFFC Without PDP)",
+        "ALP",
+        "Alkaline Phosphatase",
+        "Alkaline Phosphatase Para-Nitrophenyl Phosphate",
+        "Alkaline phosphatase, serum"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "alt",
+      "canonical_name": "Alt",
+      "category": "liver",
+      "aliases": [
+        "ALT",
+        "ALT (SGPT)",
+        "ALT(SGPT)",
+        "Alanine aminotransferase (ALT or SGPT)",
+        "SGPT",
+        "SGPT (ALT) (IFFC Without PDP)"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "ast",
+      "canonical_name": "Ast",
+      "category": "liver",
+      "aliases": [
+        "AST",
+        "AST (SGOT)",
+        "AST(SGOT)",
+        "Aspartate aminotransferase (AST or SGOT)",
+        "SGOT",
+        "SGOT (AST) (IFFC Without PDP)"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "bilirubin_direct",
+      "canonical_name": "Bilirubin Direct",
+      "category": "liver",
+      "aliases": [
+        "BILIRUBIN (DIRECT) (Diazo)",
+        "Bilirubin Direct",
+        "Bilirubin Direct DIAZO REACTION",
+        "Bilirubin, serum Direct (conjugated)",
+        "CONJUGATED (D. BILIRUBIN)",
+        "DIRECT BILIRUBIN"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "bilirubin_indirect",
+      "canonical_name": "Bilirubin Indirect",
+      "category": "liver",
+      "aliases": [
+        "BILIRUBIN (INDIRECT) (Calculated)",
+        "Bilirubin Indirect Calculated",
+        "Bilirubin indirect",
+        "INDIRECT BILIRUBIN",
+        "UNCONJUGATED (I.D.BILIRUBIN)"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "bilirubin_total",
+      "canonical_name": "Bilirubin Total",
+      "category": "liver",
+      "aliases": [
+        "BILIRUBIN (TOTAL) (Diazo)",
+        "Bilirubin Total",
+        "Bilirubin Total Diazonium Salt",
+        "Bilirubin, serum",
+        "Bilirubin, serum Total",
+        "TOTAL BILIRUBIN"
+      ],
+      "severity_weight": 1.2,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "ggt",
+      "canonical_name": "Ggt",
+      "category": "liver",
+      "aliases": [
+        "GAMMAT-GT",
+        "GGT",
+        "Gamma Glutamyl Transferase L-Gamma-glutamyl-3-carboxy-4-nitroanilide Substrate",
+        "Gamma-glutamyltransferase (GGT) Female",
+        "Gamma-glutamyltransferase (GGT) Male"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "globulin",
+      "canonical_name": "Globulin",
+      "category": "liver",
+      "aliases": [
+        "GLOBULIN",
+        "GLOBULIN (Calculated)",
+        "Globulin Calculated"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "total_protein",
+      "canonical_name": "Total Protein",
+      "category": "liver",
+      "aliases": [
+        "Protein, total, serum",
+        "Proteins (Total) Biuret",
+        "Proteins, total",
+        "TOTAL PROTEIN",
+        "TOTAL PROTEINS (Biuret)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "blood_group_rh",
+      "canonical_name": "Blood Group Rh",
+      "category": "metadata",
+      "aliases": [
+        "BG RH"
+      ],
+      "severity_weight": 0.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": true,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "panel_header",
+      "canonical_name": "Panel Header",
+      "category": "metadata",
+      "aliases": [
+        "C.B.C",
+        "CBC",
+        "Calculated Values",
+        "Oxygen Status",
+        "Urine Analysis",
+        "VER FUNCTION TEST (LFT)"
+      ],
+      "severity_weight": 0.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": true,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "ferritin",
+      "canonical_name": "Ferritin",
+      "category": "nutrition",
+      "aliases": [
+        "Ferritin",
+        "Ferritin, serum"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "folate",
+      "canonical_name": "Folate",
+      "category": "nutrition",
+      "aliases": [
+        "FOLATE",
+        "Folate (folic acid), serum",
+        "Folic Acid (Folate)",
+        "Folic Acid (Vit B9) (ECL)",
+        "Folic acid"
+      ],
+      "severity_weight": 0.8,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "iron",
+      "canonical_name": "Iron",
+      "category": "nutrition",
+      "aliases": [
+        "Fe (Iron)",
+        "Iron",
+        "Iron, serum",
+        "Serum Iron"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "tibc",
+      "canonical_name": "Tibc",
+      "category": "nutrition",
+      "aliases": [
+        "T.I.B.C.",
+        "TIBC",
+        "Total Iron Binding Capacity",
+        "Total iron-binding capacity (TIBC), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "transferrin",
+      "canonical_name": "Transferrin",
+      "category": "nutrition",
+      "aliases": [
+        "Transferrin"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "transferrin_saturation",
+      "canonical_name": "Transferrin Saturation",
+      "category": "nutrition",
+      "aliases": [
+        "TRANSFERRIN SATURATION",
+        "Transferrin saturation, serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "vitamin_b12",
+      "canonical_name": "Vitamin B12",
+      "category": "nutrition",
+      "aliases": [
+        "Vit B12",
+        "Vitamin B12",
+        "Vitamin B12 (ECL)",
+        "Vitamin B12, serum"
+      ],
+      "severity_weight": 0.8,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "vitamin_d",
+      "canonical_name": "Vitamin D",
+      "category": "nutrition",
+      "aliases": [
+        "25 (OH) Vitamin \"D3\"",
+        "VITAMIN D",
+        "Vit D3",
+        "Vitamin D3",
+        "Vitamin D3 total ( HPLC )",
+        "Vitamin D3 total (HPLC )",
+        "Vitamin D3 total (HPLC)"
+      ],
+      "severity_weight": 0.8,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "zinc",
+      "canonical_name": "Zinc",
+      "category": "nutrition",
+      "aliases": [
+        "Zinc",
+        "Zn (Zinc)",
+        "Zn serum"
+      ],
+      "severity_weight": 0.8,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_acth",
+      "canonical_name": "Unreviewed Acth",
+      "category": "other",
+      "aliases": [
+        "ACTH"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_afp",
+      "canonical_name": "Unreviewed Afp",
+      "category": "other",
+      "aliases": [
+        "AFP"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_alfa_fetoproteine_ecl",
+      "canonical_name": "Unreviewed Alfa Fetoproteine Ecl",
+      "category": "other",
+      "aliases": [
+        "Alfa Fetoproteine (ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_amylase_serum",
+      "canonical_name": "Unreviewed Amylase Serum",
+      "category": "other",
+      "aliases": [
+        "Amylase, serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ana",
+      "canonical_name": "Unreviewed Ana",
+      "category": "other",
+      "aliases": [
+        "ANA"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_anisocytosis",
+      "canonical_name": "Unreviewed Anisocytosis",
+      "category": "other",
+      "aliases": [
+        "Anisocytosis"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_anti_ccp",
+      "canonical_name": "Unreviewed Anti Ccp",
+      "category": "other",
+      "aliases": [
+        "ANTI-CCP"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_anti_thyroid_peroxidase",
+      "canonical_name": "Unreviewed Anti Thyroid Peroxidase",
+      "category": "other",
+      "aliases": [
+        "Anti Thyroid Peroxidase"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_appearance",
+      "canonical_name": "Unreviewed Appearance",
+      "category": "other",
+      "aliases": [
+        "Appearance"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ascorbic_acid",
+      "canonical_name": "Unreviewed Ascorbic Acid",
+      "category": "other",
+      "aliases": [
+        "Ascorbic acid"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_band",
+      "canonical_name": "Unreviewed Band",
+      "category": "other",
+      "aliases": [
+        "Band"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_beta_hcg",
+      "canonical_name": "Unreviewed Beta Hcg",
+      "category": "other",
+      "aliases": [
+        "BETA-HCG"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_bicarbonate_hco3_serum",
+      "canonical_name": "Unreviewed Bicarbonate Hco3 Serum",
+      "category": "other",
+      "aliases": [
+        "Bicarbonate (HCO3), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_bnp",
+      "canonical_name": "Unreviewed Bnp",
+      "category": "other",
+      "aliases": [
+        "BNP"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ca_125",
+      "canonical_name": "Unreviewed Ca 125",
+      "category": "other",
+      "aliases": [
+        "CA 125"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ca_125_ecl",
+      "canonical_name": "Unreviewed Ca 125 Ecl",
+      "category": "other",
+      "aliases": [
+        "CA-125(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ca_15_3",
+      "canonical_name": "Unreviewed Ca 15 3",
+      "category": "other",
+      "aliases": [
+        "CA 15-3"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ca_15_3_ecl",
+      "canonical_name": "Unreviewed Ca 15 3 Ecl",
+      "category": "other",
+      "aliases": [
+        "CA 15-3(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ca_19_9",
+      "canonical_name": "Unreviewed Ca 19 9",
+      "category": "other",
+      "aliases": [
+        "CA 19-9"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ca_19_9_ecl",
+      "canonical_name": "Unreviewed Ca 19 9 Ecl",
+      "category": "other",
+      "aliases": [
+        "CA 19-9(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cbase_ecf_c",
+      "canonical_name": "Unreviewed Cbase Ecf C",
+      "category": "other",
+      "aliases": [
+        "cBase(Ecf)c"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cea",
+      "canonical_name": "Unreviewed Cea",
+      "category": "other",
+      "aliases": [
+        "CEA"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cea_ecl",
+      "canonical_name": "Unreviewed Cea Ecl",
+      "category": "other",
+      "aliases": [
+        "CEA(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cell_count",
+      "canonical_name": "Unreviewed Cell Count",
+      "category": "other",
+      "aliases": [
+        "Cell count"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_chco3_p_st_c",
+      "canonical_name": "Unreviewed Chco3 P St C",
+      "category": "other",
+      "aliases": [
+        "cHCO3(P,st)c"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ck",
+      "canonical_name": "Unreviewed Ck",
+      "category": "other",
+      "aliases": [
+        "CK+"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ck_mb",
+      "canonical_name": "Unreviewed Ck Mb",
+      "category": "other",
+      "aliases": [
+        "Ck-MB"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_clac",
+      "canonical_name": "Unreviewed Clac",
+      "category": "other",
+      "aliases": [
+        "cLac"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_clarity",
+      "canonical_name": "Unreviewed Clarity",
+      "category": "other",
+      "aliases": [
+        "Clarity"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_clarity_appearance",
+      "canonical_name": "Unreviewed Clarity Appearance",
+      "category": "other",
+      "aliases": [
+        "Clarity (Appearance)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_colony_count",
+      "canonical_name": "Unreviewed Colony Count",
+      "category": "other",
+      "aliases": [
+        "Colony Count"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_color",
+      "canonical_name": "Unreviewed Color",
+      "category": "other",
+      "aliases": [
+        "Color"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_color_appearance",
+      "canonical_name": "Unreviewed Color Appearance",
+      "category": "other",
+      "aliases": [
+        "Color (Appearance)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_comment",
+      "canonical_name": "Unreviewed Comment",
+      "category": "other",
+      "aliases": [
+        "Comment"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_complete_blood_picture_whole_blood",
+      "canonical_name": "Unreviewed Complete Blood Picture Whole Blood",
+      "category": "other",
+      "aliases": [
+        "COMPLETE BLOOD PICTURE, Whole Blood"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_consistency",
+      "canonical_name": "Unreviewed Consistency",
+      "category": "other",
+      "aliases": [
+        "Consistency"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cortisol",
+      "canonical_name": "Unreviewed Cortisol",
+      "category": "other",
+      "aliases": [
+        "CORTISOL"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cortisol_serum_a_m",
+      "canonical_name": "Unreviewed Cortisol Serum A M",
+      "category": "other",
+      "aliases": [
+        "Cortisol, serum (a.m.)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cpk",
+      "canonical_name": "Unreviewed Cpk",
+      "category": "other",
+      "aliases": [
+        "CPK"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_creatine_kinase_ck_serum",
+      "canonical_name": "Unreviewed Creatine Kinase Ck Serum",
+      "category": "other",
+      "aliases": [
+        "Creatine kinase (CK), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ct02e",
+      "canonical_name": "Unreviewed Ct02E",
+      "category": "other",
+      "aliases": [
+        "ct02e"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cthb",
+      "canonical_name": "Unreviewed Cthb",
+      "category": "other",
+      "aliases": [
+        "ctHb"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_culture",
+      "canonical_name": "Unreviewed Culture",
+      "category": "other",
+      "aliases": [
+        "Culture"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_cyst",
+      "canonical_name": "Unreviewed Cyst",
+      "category": "other",
+      "aliases": [
+        "Cyst"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_dhea_s",
+      "canonical_name": "Unreviewed Dhea S",
+      "category": "other",
+      "aliases": [
+        "DHEA-S"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_diffrenital_count",
+      "canonical_name": "Unreviewed Diffrenital Count",
+      "category": "other",
+      "aliases": [
+        "DIFFRENITAL COUNT"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_estradiol",
+      "canonical_name": "Unreviewed Estradiol",
+      "category": "other",
+      "aliases": [
+        "ESTRADIOL"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_f_s_h_ecl",
+      "canonical_name": "Unreviewed F S H Ecl",
+      "category": "other",
+      "aliases": [
+        "F.S.H(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_fasting_insulin",
+      "canonical_name": "Unreviewed Fasting Insulin",
+      "category": "other",
+      "aliases": [
+        "fasting Insulin"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_fhhbe",
+      "canonical_name": "Unreviewed Fhhbe",
+      "category": "other",
+      "aliases": [
+        "FHHbe"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_fo2hbe",
+      "canonical_name": "Unreviewed Fo2Hbe",
+      "category": "other",
+      "aliases": [
+        "FO2Hbe"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_fsh",
+      "canonical_name": "Unreviewed Fsh",
+      "category": "other",
+      "aliases": [
+        "FSH"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_gh",
+      "canonical_name": "Unreviewed Gh",
+      "category": "other",
+      "aliases": [
+        "GH"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_h_pylori_iga",
+      "canonical_name": "Unreviewed H Pylori Iga",
+      "category": "other",
+      "aliases": [
+        "H.Pylori IgA"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_h_pylori_igg",
+      "canonical_name": "Unreviewed H Pylori Igg",
+      "category": "other",
+      "aliases": [
+        "H.Pylori IgG"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_h_pylori_igm",
+      "canonical_name": "Unreviewed H Pylori Igm",
+      "category": "other",
+      "aliases": [
+        "H.Pylori IgM"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_hbs_ag",
+      "canonical_name": "Unreviewed Hbs Ag",
+      "category": "other",
+      "aliases": [
+        "HBs Ag"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_hcv_ab",
+      "canonical_name": "Unreviewed Hcv Ab",
+      "category": "other",
+      "aliases": [
+        "HCV- Ab"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_he4_human_epididymis_protein_4",
+      "canonical_name": "Unreviewed He4 Human Epididymis Protein 4",
+      "category": "other",
+      "aliases": [
+        "(HE4) Human epididymis protein 4"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_hiv_ab_ag_five_generation",
+      "canonical_name": "Unreviewed Hiv Ab Ag Five Generation",
+      "category": "other",
+      "aliases": [
+        "HIV Ab&Ag Five generation"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_hypochromia",
+      "canonical_name": "Unreviewed Hypochromia",
+      "category": "other",
+      "aliases": [
+        "Hypochromia"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_igf_1",
+      "canonical_name": "Unreviewed Igf 1",
+      "category": "other",
+      "aliases": [
+        "IGF-1"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_impression",
+      "canonical_name": "Unreviewed Impression",
+      "category": "other",
+      "aliases": [
+        "IMPRESSION"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_intermediate_to",
+      "canonical_name": "Unreviewed Intermediate To",
+      "category": "other",
+      "aliases": [
+        "Intermediate to"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_l_h_ecl",
+      "canonical_name": "Unreviewed L H Ecl",
+      "category": "other",
+      "aliases": [
+        "L.H(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_lactate_dehydrogenase_ldh_serum",
+      "canonical_name": "Unreviewed Lactate Dehydrogenase Ldh Serum",
+      "category": "other",
+      "aliases": [
+        "Lactate dehydrogenase (LDH), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ldh",
+      "canonical_name": "Unreviewed Ldh",
+      "category": "other",
+      "aliases": [
+        "LDH"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_lft_liver_function_test_serum",
+      "canonical_name": "Unreviewed Lft Liver Function Test Serum",
+      "category": "other",
+      "aliases": [
+        "LFT (LIVER FUNCTION TEST), Serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_lh",
+      "canonical_name": "Unreviewed Lh",
+      "category": "other",
+      "aliases": [
+        "LH"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_lipase_serum",
+      "canonical_name": "Unreviewed Lipase Serum",
+      "category": "other",
+      "aliases": [
+        "Lipase, serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_microcytosis",
+      "canonical_name": "Unreviewed Microcytosis",
+      "category": "other",
+      "aliases": [
+        "Microcytosis"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_neu",
+      "canonical_name": "Unreviewed Neu",
+      "category": "other",
+      "aliases": [
+        "Neu"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_nucleated_red_blood_cells_nrbc",
+      "canonical_name": "Unreviewed Nucleated Red Blood Cells Nrbc",
+      "category": "other",
+      "aliases": [
+        "Nucleated red blood cells (NRBC)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_osmolality",
+      "canonical_name": "Unreviewed Osmolality",
+      "category": "other",
+      "aliases": [
+        "Osmolality"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_osmolality_serum",
+      "canonical_name": "Unreviewed Osmolality Serum",
+      "category": "other",
+      "aliases": [
+        "Osmolality, serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_other",
+      "canonical_name": "Unreviewed Other",
+      "category": "other",
+      "aliases": [
+        "Other"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ova_of_parasites",
+      "canonical_name": "Unreviewed Ova Of Parasites",
+      "category": "other",
+      "aliases": [
+        "Ova of Parasites"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ovalocyte",
+      "canonical_name": "Unreviewed Ovalocyte",
+      "category": "other",
+      "aliases": [
+        "Ovalocyte"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_oxygen_saturation_sao2_arterial_blood",
+      "canonical_name": "Unreviewed Oxygen Saturation Sao2 Arterial Blood",
+      "category": "other",
+      "aliases": [
+        "Oxygen saturation (SaO2), arterial blood"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_p_c_v",
+      "canonical_name": "Unreviewed P C V",
+      "category": "other",
+      "aliases": [
+        "P.C.V."
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_p_s_a_ecl",
+      "canonical_name": "Unreviewed P S A Ecl",
+      "category": "other",
+      "aliases": [
+        "P.S.A(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_p_t_activity",
+      "canonical_name": "Unreviewed P T Activity",
+      "category": "other",
+      "aliases": [
+        "P.T. Activity"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_p02",
+      "canonical_name": "Unreviewed P02",
+      "category": "other",
+      "aliases": [
+        "p02"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_paco2_arterial_blood",
+      "canonical_name": "Unreviewed Paco2 Arterial Blood",
+      "category": "other",
+      "aliases": [
+        "PaCO2, arterial blood"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_pao2_arterial_blood",
+      "canonical_name": "Unreviewed Pao2 Arterial Blood",
+      "category": "other",
+      "aliases": [
+        "PaO2, arterial blood"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_pc02",
+      "canonical_name": "Unreviewed Pc02",
+      "category": "other",
+      "aliases": [
+        "PC02"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_peripheral_smear",
+      "canonical_name": "Unreviewed Peripheral Smear",
+      "category": "other",
+      "aliases": [
+        "PERIPHERAL SMEAR"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_ph_arterial_blood",
+      "canonical_name": "Unreviewed Ph Arterial Blood",
+      "category": "other",
+      "aliases": [
+        "pH, arterial blood"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_progesterone",
+      "canonical_name": "Unreviewed Progesterone",
+      "category": "other",
+      "aliases": [
+        "PROGESTERONE"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_prolactin",
+      "canonical_name": "Unreviewed Prolactin",
+      "category": "other",
+      "aliases": [
+        "PROLACTIN"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_prostate_specific_antigen_psa_serum",
+      "canonical_name": "Unreviewed Prostate Specific Antigen Psa Serum",
+      "category": "other",
+      "aliases": [
+        "Prostate-specific antigen (PSA), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_protozoa_cyst",
+      "canonical_name": "Unreviewed Protozoa Cyst",
+      "category": "other",
+      "aliases": [
+        "Protozoa Cyst"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_psa_free",
+      "canonical_name": "Unreviewed Psa Free",
+      "category": "other",
+      "aliases": [
+        "PSA FREE"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_psa_total",
+      "canonical_name": "Unreviewed Psa Total",
+      "category": "other",
+      "aliases": [
+        "PSA TOTAL"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_r_b_c_hpf",
+      "canonical_name": "Unreviewed R B C Hpf",
+      "category": "other",
+      "aliases": [
+        "R.B.C/HPF"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_rbc_impedence",
+      "canonical_name": "Unreviewed Rbc Impedence",
+      "category": "other",
+      "aliases": [
+        "RBC (Impedence)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_renal_function_test_serum",
+      "canonical_name": "Unreviewed Renal Function Test Serum",
+      "category": "other",
+      "aliases": [
+        "RENAL FUNCTION TEST, Serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_resistant_to",
+      "canonical_name": "Unreviewed Resistant To",
+      "category": "other",
+      "aliases": [
+        "Resistant to"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_reticulocyte_count",
+      "canonical_name": "Unreviewed Reticulocyte Count",
+      "category": "other",
+      "aliases": [
+        "Reticulocyte count"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_rf_factor",
+      "canonical_name": "Unreviewed Rf Factor",
+      "category": "other",
+      "aliases": [
+        "RF FACTOR"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_rheumatoid_arthritis_factor",
+      "canonical_name": "Unreviewed Rheumatoid Arthritis Factor",
+      "category": "other",
+      "aliases": [
+        "Rheumatoid Arthritis Factor"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_roma_he4",
+      "canonical_name": "Unreviewed Roma He4",
+      "category": "other",
+      "aliases": [
+        "ROMA HE4"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_s_g_o_t_ast",
+      "canonical_name": "Unreviewed S G O T Ast",
+      "category": "other",
+      "aliases": [
+        "S.G.O.T (AST)",
+        "S.G.O.T. (AST)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_s_g_o_t_nadh_without_p_5_p",
+      "canonical_name": "Unreviewed S G O T Nadh Without P 5 P",
+      "category": "other",
+      "aliases": [
+        "S.G.O.T. NADH (Without P-5-P)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_s_g_p_t_nadh_without_p_5_p",
+      "canonical_name": "Unreviewed S G P T Nadh Without P 5 P",
+      "category": "other",
+      "aliases": [
+        "S.G.P.T. NADH (Without P-5-P)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_s02",
+      "canonical_name": "Unreviewed S02",
+      "category": "other",
+      "aliases": [
+        "s02"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_selenium",
+      "canonical_name": "Unreviewed Selenium",
+      "category": "other",
+      "aliases": [
+        "Selenium"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_sensitive_to",
+      "canonical_name": "Unreviewed Sensitive To",
+      "category": "other",
+      "aliases": [
+        "Sensitive to"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_shbg",
+      "canonical_name": "Unreviewed Shbg",
+      "category": "other",
+      "aliases": [
+        "SHBG"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_specimen",
+      "canonical_name": "Unreviewed Specimen",
+      "category": "other",
+      "aliases": [
+        "Specimen"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_stool_cal_protectin",
+      "canonical_name": "Unreviewed Stool Cal Protectin",
+      "category": "other",
+      "aliases": [
+        "Stool Cal Protectin"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_stool_exam_x1",
+      "canonical_name": "Unreviewed Stool Exam X1",
+      "category": "other",
+      "aliases": [
+        "Stool Exam(x1)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_t_l_c",
+      "canonical_name": "Unreviewed T L C",
+      "category": "other",
+      "aliases": [
+        "T.L.C"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_testosterone",
+      "canonical_name": "Unreviewed Testosterone",
+      "category": "other",
+      "aliases": [
+        "TESTOSTERONE"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_total",
+      "canonical_name": "Unreviewed Total",
+      "category": "other",
+      "aliases": [
+        "Total(%)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_total_psa",
+      "canonical_name": "Unreviewed Total Psa",
+      "category": "other",
+      "aliases": [
+        "Total PSA"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_transaminase_serum",
+      "canonical_name": "Unreviewed Transaminase Serum",
+      "category": "other",
+      "aliases": [
+        "Transaminase, serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_troponin_i",
+      "canonical_name": "Unreviewed Troponin I",
+      "category": "other",
+      "aliases": [
+        "TROPONIN I"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_troponin_t_tnt_serum",
+      "canonical_name": "Unreviewed Troponin T Tnt Serum",
+      "category": "other",
+      "aliases": [
+        "Troponin T (TnT), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_undigested_food",
+      "canonical_name": "Unreviewed Undigested Food",
+      "category": "other",
+      "aliases": [
+        "Undigested Food"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_urine_culture",
+      "canonical_name": "Unreviewed Urine Culture",
+      "category": "other",
+      "aliases": [
+        "Urine Culture"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_urine_culture_sensitivity",
+      "canonical_name": "Unreviewed Urine Culture Sensitivity",
+      "category": "other",
+      "aliases": [
+        "Urine culture & Sensitivity"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_v_zoster_igg_ecl",
+      "canonical_name": "Unreviewed V Zoster Igg Ecl",
+      "category": "other",
+      "aliases": [
+        "V.Zoster IgG(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "unreviewed_w_b_c_hpf",
+      "canonical_name": "Unreviewed W B C Hpf",
+      "category": "other",
+      "aliases": [
+        "W.B.C/hpf"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "anti_tg",
+      "canonical_name": "Anti Tg",
+      "category": "thyroid",
+      "aliases": [
+        "ANTI-TG"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "anti_tpo",
+      "canonical_name": "Anti Tpo",
+      "category": "thyroid",
+      "aliases": [
+        "ANTI-TPO",
+        "Anti TPO(ECL)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "free_t3",
+      "canonical_name": "Free T3",
+      "category": "thyroid",
+      "aliases": [
+        "FREE T3",
+        "Triiodothyronine, free (FT3), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "free_t4",
+      "canonical_name": "Free T4",
+      "category": "thyroid",
+      "aliases": [
+        "Free T4",
+        "Free T4(chemilo)",
+        "Thyroxine, free (FT4), serum"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "t3",
+      "canonical_name": "T3",
+      "category": "thyroid",
+      "aliases": [
+        "T3",
+        "T3(Chemilo)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "t4",
+      "canonical_name": "T4",
+      "category": "thyroid",
+      "aliases": [
+        "T4",
+        "T4(Chemilo)"
+      ],
+      "severity_weight": 1.0,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "tsh",
+      "canonical_name": "Tsh",
+      "category": "thyroid",
+      "aliases": [
+        "TSH",
+        "TSH(Chemilo)",
+        "TSH(ECL)",
+        "Thyrotropin (thyroid-stimulating hormone), serum"
+      ],
+      "severity_weight": 1.1,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_bacteria",
+      "canonical_name": "Urine Bacteria",
+      "category": "urinalysis",
+      "aliases": [
+        "Bacteria",
+        "Bacteria/hpf"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_bilirubin",
+      "canonical_name": "Urine Bilirubin",
+      "category": "urinalysis",
+      "aliases": [
+        "Bilirubin",
+        "Bilirubin (Urine)"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_blood",
+      "canonical_name": "Urine Blood",
+      "category": "urinalysis",
+      "aliases": [
+        "Blood",
+        "Blood/Hgb/Mgb",
+        "Occult Blood"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_casts",
+      "canonical_name": "Urine Casts",
+      "category": "urinalysis",
+      "aliases": [
+        "Cast",
+        "Cast /lpf",
+        "Cast/lpf",
+        "Casts",
+        "Casts/LPF"
+      ],
+      "severity_weight": 0.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_crystals",
+      "canonical_name": "Urine Crystals",
+      "category": "urinalysis",
+      "aliases": [
+        "Crystal/lpf",
+        "Crystals",
+        "Crystals/HPF"
+      ],
+      "severity_weight": 0.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_epithelial_cells",
+      "canonical_name": "Urine Epithelial Cells",
+      "category": "urinalysis",
+      "aliases": [
+        "Ep. Cells/hpf",
+        "Epithelial Cells",
+        "Epithelial Cells/LPF"
+      ],
+      "severity_weight": 0.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_glucose",
+      "canonical_name": "Urine Glucose",
+      "category": "urinalysis",
+      "aliases": [
+        "Glucose (Urine)"
+      ],
+      "severity_weight": 0.8,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_ketones",
+      "canonical_name": "Urine Ketones",
+      "category": "urinalysis",
+      "aliases": [
+        "Ketone",
+        "Ketones"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_leukocyte_esterase",
+      "canonical_name": "Urine Leukocyte Esterase",
+      "category": "urinalysis",
+      "aliases": [
+        "Leukocyte esterase"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_mucus",
+      "canonical_name": "Urine Mucus",
+      "category": "urinalysis",
+      "aliases": [
+        "Mucus",
+        "Mucus threads",
+        "Mucus/lpf"
+      ],
+      "severity_weight": 0.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_nitrite",
+      "canonical_name": "Urine Nitrite",
+      "category": "urinalysis",
+      "aliases": [
+        "Nitrite"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_ph",
+      "canonical_name": "Urine Ph",
+      "category": "urinalysis",
+      "aliases": [
+        "PH",
+        "Reaction(PH)"
+      ],
+      "severity_weight": 0.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_protein",
+      "canonical_name": "Urine Protein",
+      "category": "urinalysis",
+      "aliases": [
+        "Protein",
+        "Protein (Urine)",
+        "Proteins"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_rbc",
+      "canonical_name": "Urine Rbc",
+      "category": "urinalysis",
+      "aliases": [
+        "RBCs/HPF"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_specific_gravity",
+      "canonical_name": "Urine Specific Gravity",
+      "category": "urinalysis",
+      "aliases": [
+        "Specific Gravity"
+      ],
+      "severity_weight": 0.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_urobilinogen",
+      "canonical_name": "Urine Urobilinogen",
+      "category": "urinalysis",
+      "aliases": [
+        "Urobilinogen"
+      ],
+      "severity_weight": 0.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_wbc",
+      "canonical_name": "Urine Wbc",
+      "category": "urinalysis",
+      "aliases": [
+        "Leukocytes",
+        "WBCs/ HPF",
+        "WBCs/HPF"
+      ],
+      "severity_weight": 0.7,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    },
+    {
+      "canonical_id": "urine_yeast",
+      "canonical_name": "Urine Yeast",
+      "category": "urinalysis",
+      "aliases": [
+        "Yeast",
+        "Yeasts"
+      ],
+      "severity_weight": 0.5,
+      "weight_source": "generated",
+      "weight_evidence": "",
+      "exclude_from_test_count": false,
+      "unit": "",
+      "clinical_notes": "",
+      "last_reviewed": "",
+      "reviewer": ""
+    }
+  ],
+  "dictionary_version": "2.0"
+}
